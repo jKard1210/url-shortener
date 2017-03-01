@@ -7,7 +7,7 @@ var oUrl = [];
 
 
 app.get ('/', function(req, res) {
-  res.send("<h1>URL Shortener</h1> " + "<h3>Note: do not include HTTP:// in your original URL<h3>")
+  res.send("<h1>URL Shortener</h1> " + "<h4>Note: do not include HTTP:// in your original URL<h4>" + "https://pacific-reaches-72749.herokuapp.com/")
 })
 
 app.get('/:id', function (req, res) {
