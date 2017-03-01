@@ -27,6 +27,6 @@ app.get('/url/:id', function(req, res) {
     res.redirect("http://" + abc);
 })
 
-app.listen(8080, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log('Example app listening on port 3000!')
 })
