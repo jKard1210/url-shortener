@@ -1,1 +1,13 @@
+{
+  "name": "url_shortener",
+  "version": "1.0.0",
+  "description": "A URL shortener API",
+  "main": "server.js",
+  "dependencies": {
+    "multer": "^1.1.0",
+    "express": "^4.14.0",
+    "nodemon": "^1.9.1"
+  },
+  "devDependencies": {}
+}
 
